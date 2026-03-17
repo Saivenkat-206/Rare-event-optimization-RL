@@ -1,0 +1,299 @@
+ENVIRONMENT STATS:
+Env settings 1: (Rare failure but increased severity without budget)
+Always Maintain:
+  Avg Reward: -200.00
+  Avg Failures: 0.14
+  Worst-case Reward: -200.00
+----------------------------------------
+Never Maintain:
+  Avg Reward: -34563.60
+  Avg Failures: 11.60
+  Worst-case Reward: -57000.00
+----------------------------------------
+Random:
+  Avg Reward: -102.50
+  Avg Failures: 0.06
+  Worst-case Reward: -171.00
+----------------------------------------
+
+DQN: (for env2)
+Episode   1 | Reward:  -963.00 | Failures:  1 | Maintenance:  63
+Episode   2 | Reward:  -160.00 | Failures:  0 | Maintenance: 160
+Episode   3 | Reward:  -193.00 | Failures:  0 | Maintenance: 193
+Episode   4 | Reward:  -197.00 | Failures:  0 | Maintenance: 197
+Episode   5 | Reward:  -195.00 | Failures:  0 | Maintenance: 195
+Step  1000 | Epsilon: 0.050 | Avg Loss (last 1k): 1612.5522
+Episode   6 | Reward:  -196.00 | Failures:  0 | Maintenance: 196
+Episode   7 | Reward:  -195.00 | Failures:  0 | Maintenance: 195
+Episode   8 | Reward:  -195.00 | Failures:  0 | Maintenance: 195
+Episode   9 | Reward:  -194.00 | Failures:  0 | Maintenance: 194
+Episode  10 | Reward:  -199.00 | Failures:  0 | Maintenance: 199
+Step  2000 | Epsilon: 0.050 | Avg Loss (last 1k): 466.3322
+Episode  11 | Reward:  -196.00 | Failures:  0 | Maintenance: 196
+Episode  12 | Reward:  -197.00 | Failures:  0 | Maintenance: 197
+Episode  13 | Reward:  -194.00 | Failures:  0 | Maintenance: 194
+Episode  14 | Reward:  -197.00 | Failures:  0 | Maintenance: 197
+Episode  15 | Reward:  -194.00 | Failures:  0 | Maintenance: 194
+Step  3000 | Epsilon: 0.050 | Avg Loss (last 1k): 239.8055
+Episode  16 | Reward:  -196.00 | Failures:  1 | Maintenance: 196
+Episode  17 | Reward: -9064.00 | Failures:  4 | Maintenance:  64
+Episode  18 | Reward:  -178.00 | Failures:  0 | Maintenance: 178
+Episode  19 | Reward:  -199.00 | Failures:  0 | Maintenance: 199
+Episode  20 | Reward:  -193.00 | Failures:  0 | Maintenance: 193
+Step  4000 | Epsilon: 0.050 | Avg Loss (last 1k): 4266.6389
+Episode  21 | Reward:  -193.00 | Failures:  0 | Maintenance: 193
+Episode  22 | Reward:  -111.00 | Failures:  0 | Maintenance: 111
+Episode  23 | Reward:  -180.00 | Failures:  0 | Maintenance: 180
+Episode  24 | Reward:  -191.00 | Failures:  0 | Maintenance: 191
+Episode  25 | Reward:  -105.00 | Failures:  1 | Maintenance: 105
+Step  5000 | Epsilon: 0.050 | Avg Loss (last 1k): 6509.5809
+Episode  26 | Reward:  -126.00 | Failures:  0 | Maintenance: 126
+Episode  27 | Reward:  -153.00 | Failures:  0 | Maintenance: 153
+Episode  28 | Reward:  -148.00 | Failures:  0 | Maintenance: 148
+Episode  29 | Reward:   -98.00 | Failures:  0 | Maintenance:  98
+Episode  30 | Reward:   -57.00 | Failures:  0 | Maintenance:  57
+Step  6000 | Epsilon: 0.050 | Avg Loss (last 1k): 4184.5745
+Episode  31 | Reward:  -183.00 | Failures:  1 | Maintenance: 123
+Episode  32 | Reward:  -145.00 | Failures:  0 | Maintenance: 145
+Episode  33 | Reward:  -114.00 | Failures:  1 | Maintenance: 114
+Episode  34 | Reward:   -49.00 | Failures:  0 | Maintenance:  49
+Episode  35 | Reward:   -60.00 | Failures:  0 | Maintenance:  60
+Step  7000 | Epsilon: 0.050 | Avg Loss (last 1k): 3705.2097
+Episode  36 | Reward:   -75.00 | Failures:  0 | Maintenance:  75
+Episode  37 | Reward:   -76.00 | Failures:  0 | Maintenance:  76
+Episode  38 | Reward:  -104.00 | Failures:  0 | Maintenance: 104
+Episode  39 | Reward:   -54.00 | Failures:  0 | Maintenance:  54
+Episode  40 | Reward:   -88.00 | Failures:  0 | Maintenance:  88
+Step  8000 | Epsilon: 0.050 | Avg Loss (last 1k): 2958.1136
+Episode  41 | Reward:  -102.00 | Failures:  0 | Maintenance: 102
+Episode  42 | Reward:   -68.00 | Failures:  0 | Maintenance:  68
+Episode  43 | Reward:  -101.00 | Failures:  0 | Maintenance: 101
+Episode  44 | Reward:   -74.00 | Failures:  0 | Maintenance:  74
+Episode  45 | Reward:   -65.00 | Failures:  0 | Maintenance:  65
+Step  9000 | Epsilon: 0.050 | Avg Loss (last 1k): 2871.4182
+Episode  46 | Reward:   -75.00 | Failures:  0 | Maintenance:  75
+Episode  47 | Reward:   -66.00 | Failures:  0 | Maintenance:  66
+Episode  48 | Reward:   -55.00 | Failures:  0 | Maintenance:  55
+Episode  49 | Reward:   -75.00 | Failures:  0 | Maintenance:  75
+Episode  50 | Reward:   -73.00 | Failures:  0 | Maintenance:  73
+Step 10000 | Epsilon: 0.050 | Avg Loss (last 1k): 2114.7420
+Episode  51 | Reward:  -121.00 | Failures:  0 | Maintenance: 121
+Episode  52 | Reward:  -100.00 | Failures:  0 | Maintenance: 100
+Episode  53 | Reward:   -68.00 | Failures:  0 | Maintenance:  68
+Episode  54 | Reward:  -173.00 | Failures:  1 | Maintenance:  53
+Episode  55 | Reward:   -49.00 | Failures:  0 | Maintenance:  49
+Step 11000 | Epsilon: 0.050 | Avg Loss (last 1k): 2221.9453
+Episode  56 | Reward:   -71.00 | Failures:  0 | Maintenance:  71
+Episode  57 | Reward:   -53.00 | Failures:  0 | Maintenance:  53
+Episode  58 | Reward:  -121.00 | Failures:  1 | Maintenance:  61
+Episode  59 | Reward:   -67.00 | Failures:  0 | Maintenance:  67
+Episode  60 | Reward:   -57.00 | Failures:  0 | Maintenance:  57
+Step 12000 | Epsilon: 0.050 | Avg Loss (last 1k): 1919.5061
+Episode  61 | Reward:  -121.00 | Failures:  1 | Maintenance:  61
+Episode  62 | Reward:   -51.00 | Failures:  0 | Maintenance:  51
+Episode  63 | Reward:   -55.00 | Failures:  0 | Maintenance:  55
+Episode  64 | Reward:   -51.00 | Failures:  0 | Maintenance:  51
+Episode  65 | Reward:   -63.00 | Failures:  0 | Maintenance:  63
+Step 13000 | Epsilon: 0.050 | Avg Loss (last 1k): 1275.2995
+Episode  66 | Reward:   -67.00 | Failures:  0 | Maintenance:  67
+Episode  67 | Reward:  -120.00 | Failures:  1 | Maintenance:  60
+Episode  68 | Reward:   -69.00 | Failures:  0 | Maintenance:  69
+Episode  69 | Reward:   -69.00 | Failures:  0 | Maintenance:  69
+Episode  70 | Reward:  -127.00 | Failures:  1 | Maintenance:  67
+Step 14000 | Epsilon: 0.050 | Avg Loss (last 1k): 770.8290
+Episode  71 | Reward:  -188.00 | Failures:  1 | Maintenance:  68
+Episode  72 | Reward:   -67.00 | Failures:  0 | Maintenance:  67
+Episode  73 | Reward:   -68.00 | Failures:  0 | Maintenance:  68
+Episode  74 | Reward:   -67.00 | Failures:  0 | Maintenance:  67
+Episode  75 | Reward:   -68.00 | Failures:  0 | Maintenance:  68
+Step 15000 | Epsilon: 0.050 | Avg Loss (last 1k): 5.1359
+Episode  76 | Reward:   -67.00 | Failures:  0 | Maintenance:  67
+Episode  77 | Reward:   -69.00 | Failures:  0 | Maintenance:  69
+Episode  78 | Reward:   -69.00 | Failures:  0 | Maintenance:  69
+Episode  79 | Reward:  -128.00 | Failures:  1 | Maintenance:  68
+Episode  80 | Reward:   -64.00 | Failures:  0 | Maintenance:  64
+Step 16000 | Epsilon: 0.050 | Avg Loss (last 1k): 6.9503
+Episode  81 | Reward:   -66.00 | Failures:  0 | Maintenance:  66
+Episode  82 | Reward:   -67.00 | Failures:  0 | Maintenance:  67
+Episode  83 | Reward:   -65.00 | Failures:  0 | Maintenance:  65
+Episode  84 | Reward:   -58.00 | Failures:  0 | Maintenance:  58
+Episode  85 | Reward:   -56.00 | Failures:  0 | Maintenance:  56
+Step 17000 | Epsilon: 0.050 | Avg Loss (last 1k): 5.2765
+Episode  86 | Reward:   -51.00 | Failures:  0 | Maintenance:  51
+Episode  87 | Reward:   -51.00 | Failures:  0 | Maintenance:  51
+Episode  88 | Reward:   -50.00 | Failures:  0 | Maintenance:  50
+Episode  89 | Reward:   -56.00 | Failures:  0 | Maintenance:  56
+Episode  90 | Reward:   -54.00 | Failures:  1 | Maintenance:  54
+Step 18000 | Epsilon: 0.050 | Avg Loss (last 1k): 5.3817
+Episode  91 | Reward:   -54.00 | Failures:  0 | Maintenance:  54
+Episode  92 | Reward:   -55.00 | Failures:  0 | Maintenance:  55
+Episode  93 | Reward:   -56.00 | Failures:  0 | Maintenance:  56
+Episode  94 | Reward:   -53.00 | Failures:  0 | Maintenance:  53
+Episode  95 | Reward:   -51.00 | Failures:  0 | Maintenance:  51
+Step 19000 | Epsilon: 0.050 | Avg Loss (last 1k): 6.1721
+Episode  96 | Reward:   -60.00 | Failures:  0 | Maintenance:  60
+Episode  97 | Reward:   -55.00 | Failures:  0 | Maintenance:  55
+Episode  98 | Reward:   -53.00 | Failures:  0 | Maintenance:  53
+Episode  99 | Reward:   -48.00 | Failures:  0 | Maintenance:  48
+Episode 100 | Reward:   -48.00 | Failures:  0 | Maintenance:  48
+Training complete.
+Maintenance chosen %: 0.4847
+Mean Episode Reward: -201.94000000000008
+Mean Episode Failures: 0.17
+Mean Maintenance per Episode: 96.94
+
+Learned Policy:
+Average Reward: -60.40000000000062
+Worst Episode: -280.0000000000085
+
+
+Env settings 2(with budget):
+
+Always Maintain:
+  Avg Reward: -49266.80
+  Avg Failures: 12.52
+  Worst-case Reward: -86662.00
+----------------------------------------
+Never Maintain:
+  Avg Reward: -28804.80
+  Avg Failures: 7.26
+  Worst-case Reward: -56000.00
+----------------------------------------
+Random:
+  Avg Reward: -42312.10
+  Avg Failures: 10.86
+  Worst-case Reward: -66661.00
+----------------------------------------
+
+DQN: (for env3)
+Episode   1 |failure: False |Reward: -14500.00
+Episode   2 |failure: False |Reward: -60022.00
+Episode   3 |failure: False |Reward: -32020.00
+Episode   4 |failure: False |Reward: -39782.00
+Episode   5 |failure: False |Reward: -32022.00
+Episode   6 |failure: False |Reward: -47459.00
+Episode   7 |failure: False |Reward: -27858.00
+Episode   8 |failure: False |Reward: -22900.00
+Episode   9 |failure: False |Reward: -31779.00
+Episode  10 |failure: False |Reward: -52020.00
+Episode  11 |failure: False |Reward: -52020.00
+Episode  12 |failure: False |Reward: -36021.00
+Episode  13 |failure: False |Reward: -55939.00
+Episode  14 |failure: False |Reward: -38657.00
+Episode  15 |failure: False |Reward: -37141.00
+Episode  16 |failure: False |Reward: -31860.00
+Episode  17 |failure: False |Reward: -29698.00
+Episode  18 |failure: False |Reward: -36020.00
+Episode  19 |failure: False |Reward: -44022.00
+Episode  20 |failure: True |Reward: -67460.00
+Episode  21 |failure: False |Reward: -48021.00
+Episode  22 |failure: False |Reward: -55862.00
+Episode  23 |failure: False |Reward: -38176.00
+Episode  24 |failure: False |Reward: -31222.00
+Episode  25 |failure: False |Reward: -35137.00
+Episode  26 |failure: False |Reward: -38336.00
+Episode  27 |failure: False |Reward: -35142.00
+Episode  28 |failure: False |Reward: -28016.00
+Episode  29 |failure: False |Reward: -56022.00
+Episode  30 |failure: False |Reward: -51382.00
+Episode  31 |failure: False |Reward: -40022.00
+Episode  32 |failure: False |Reward: -34662.00
+Episode  33 |failure: False |Reward: -47622.00
+Episode  34 |failure: False |Reward: -42822.00
+Episode  35 |failure: False |Reward: -59942.00
+Episode  36 |failure: True |Reward: -32022.00
+Episode  37 |failure: False |Reward: -76022.00
+Episode  38 |failure: False |Reward: -26742.00
+Episode  39 |failure: False |Reward: -62982.00
+Episode  40 |failure: True |Reward: -66819.00
+Episode  41 |failure: False |Reward: -51541.00
+Episode  42 |failure: False |Reward: -48021.00
+Episode  43 |failure: False |Reward: -39141.00
+Episode  44 |failure: True |Reward: -40020.00
+Episode  45 |failure: False |Reward: -31620.00
+Episode  46 |failure: False |Reward: -40019.00
+Episode  47 |failure: True |Reward: -52019.00
+Episode  48 |failure: False |Reward: -24019.00
+Episode  49 |failure: False |Reward: -36019.00
+Episode  50 |failure: False |Reward: -32019.00
+Episode  51 |failure: False |Reward: -27859.00
+Episode  52 |failure: True |Reward: -27138.00
+Episode  53 |failure: False |Reward: -34019.00
+Episode  54 |failure: False |Reward: -23778.00
+Episode  55 |failure: False |Reward: -12019.00
+Episode  56 |failure: False |Reward: -27538.00
+Episode  57 |failure: False |Reward: -32017.00
+Episode  58 |failure: False |Reward: -18579.00
+Episode  59 |failure: False |Reward: -22977.00
+Episode  60 |failure: False |Reward: -25218.00
+Episode  61 |failure: False |Reward: -28018.00
+Episode  62 |failure: False |Reward: -31058.00
+Episode  63 |failure: False |Reward: -27858.00
+Episode  64 |failure: False |Reward: -20018.00
+Episode  65 |failure: False |Reward: -15218.00
+Episode  66 |failure: False |Reward: -48018.00
+Episode  67 |failure: False |Reward: -24018.00
+Episode  68 |failure: False |Reward: -18898.00
+Episode  69 |failure: False |Reward: -26738.00
+Episode  70 |failure: False |Reward: -13698.00
+Episode  71 |failure: False |Reward: -21857.00
+Episode  72 |failure: False |Reward: -12017.00
+Episode  73 |failure: False |Reward: -23858.00
+Episode  74 |failure: False |Reward: -39217.00
+Episode  75 |failure: False |Reward: -22017.00
+Episode  76 |failure: False |Reward: -31697.00
+Episode  77 |failure: False |Reward: -30337.00
+Episode  78 |failure: False |Reward: -27057.00
+Episode  79 |failure: False |Reward: -13458.00
+Episode  80 |failure: False |Reward: -48018.00
+Episode  81 |failure: False |Reward: -27858.00
+Episode  82 |failure: False |Reward: -36018.00
+Episode  83 |failure: False |Reward: -15378.00
+Episode  84 |failure: False |Reward: -20018.00
+Episode  85 |failure: False |Reward: -32018.00
+Episode  86 |failure: False |Reward: -22098.00
+Episode  87 |failure: False |Reward: -36018.00
+Episode  88 |failure: False |Reward: -16498.00
+Episode  89 |failure: False |Reward: -19619.00
+Episode  90 |failure: False |Reward: -40019.00
+Episode  91 |failure: False |Reward: -48019.00
+Episode  92 |failure: False |Reward: -40019.00
+Episode  93 |failure: False |Reward: -34019.00
+Episode  94 |failure: False |Reward: -20019.00
+Episode  95 |failure: False |Reward: -38899.00
+Episode  96 |failure: False |Reward: -34819.00
+Episode  97 |failure: False |Reward: -26419.00
+Episode  98 |failure: True |Reward: -42979.00
+Episode  99 |failure: False |Reward: -29459.00
+Episode 100 |failure: False |Reward: -30899.00
+Episode 101 |failure: True |Reward: -34900.00
+Episode 102 |failure: False |Reward: -32019.00
+Episode 103 |failure: False |Reward: -32019.00
+Episode 104 |failure: False |Reward: -16019.00
+Episode 105 |failure: False |Reward: -35939.00
+Episode 106 |failure: False |Reward: -36019.00
+Episode 107 |failure: True |Reward: -27459.00
+Episode 108 |failure: False |Reward: -50899.00
+Episode 109 |failure: False |Reward: -32019.00
+Episode 110 |failure: True |Reward: -40019.00
+Episode 111 |failure: False |Reward: -26179.00
+Episode 112 |failure: False |Reward: -24019.00
+Episode 113 |failure: False |Reward: -36019.00
+Episode 114 |failure: False |Reward: -31779.00
+Episode 115 |failure: False |Reward: -27859.00
+Episode 116 |failure: True |Reward: -15859.00
+Episode 117 |failure: True |Reward: -43458.00
+Episode 118 |failure: False |Reward: -31698.00
+Episode 119 |failure: True |Reward: -16018.00
+Episode 120 |failure: False |Reward: -20018.00
+Episode 121 |failure: True |Reward: -43138.00
+Episode 122 |failure: True |Reward: -38898.00
+Episode 123 |failure: False |Reward: -20019.00
+Episode 124 |failure: False |Reward: -30178.00
+Episode 125 |failure: False |Reward: -30018.00
+
+Training complete.
+Mean reward: -33987.088
+Worst episode: -76022.0
+
+
