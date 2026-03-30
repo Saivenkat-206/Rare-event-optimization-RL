@@ -50,48 +50,50 @@ class GridEnv(gym.Env):
             min(self.time_since_maintenance / 50.0, 1.0),
             min(self.budget / self.initial_budget, 1.0)
         ], dtype=np.float32)
-
+    
     def step(self, action):
         reward = 0
         self.step_count += 1
 
-        # Passive budget drain
+        # 1. Update Dynamics
         self.budget -= self.passive_budget_drain
-
-        # Natural decay
         self.preparedness -= self.decay_rate
 
-        # Maintenance
+        # 2. Handle Action
         if action == 1 and self.budget >= self.maintenance_cost:
             self.budget -= self.maintenance_cost
             self.preparedness += self.maintenance_boost
             self.time_since_maintenance = 0
-            reward -= 1
+            reward -= 1 
         else:
             self.time_since_maintenance += 1
 
         self.preparedness = np.clip(self.preparedness, 0, 1)
 
-        # Failure probability
-        p_failure = self.base_failure * np.exp(
-            self.k * (1 - self.preparedness)
-        )
-
-        # If broke, risk increases
+        # 3. Calculate Failure Probability
+        p_failure = self.base_failure * np.exp(self.k * (1 - self.preparedness))
         if self.budget <= 0:
             p_failure *= 2
-
         p_failure = min(p_failure, self.max_failure_prob)
 
+        # 4. Determine if failure happened
         failure = np.random.rand() < p_failure
 
+        # --- RISK AWARE PENALTIES START HERE ---
+        
+        # Mild continuous risk awareness (Linear penalty)
+        risk_penalty = 20 * (1 - self.preparedness)
+        reward -= risk_penalty
+
+        # Keep original catastrophe (NO extra -2000)
         if failure:
             severity = self.catastrophe_scale * (1 - self.preparedness)
             reward -= severity
+            
+        # --- RISK AWARE PENALTIES END HERE ---
 
         terminated = False
         truncated = self.step_count >= self.max_steps
-
-        info = {"failure": failure}
+        info = {"failure": failure, "p_failure": p_failure}
 
         return self._get_state(), reward, terminated, truncated, info
