@@ -171,7 +171,7 @@ This framework maps to several domains:
 
 ---
 
-## 🎯 Key Takeaway
+## Key Takeaway
 
 > Optimizing for average outcomes is not enough in systems with rare catastrophic risks.
 
