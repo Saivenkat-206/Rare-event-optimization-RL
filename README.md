@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project explores a key limitation of standard Reinforcement Learning (RL): **tail-risk blindness**.
+This project explores a key limitation of Standard Reinforcement Learning (RL): **Tail-Risk Blindness**.
 
 We simulate a simplified power grid where an agent must decide whether to:
 
